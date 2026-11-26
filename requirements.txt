@@ -1,0 +1,17 @@
+# Core: detection, tracking, image processing
+ultralytics>=8.1
+torch
+torchvision
+opencv-python
+numpy
+lap
+
+# YOLOP (loaded through torch.hub from hustvl/yolop)
+prefetch_generator
+tqdm
+yacs
+scipy
+pyyaml
+
+# Optional Python 3D viewer (randare_3D.py)
+ursina

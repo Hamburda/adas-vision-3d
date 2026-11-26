@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-04-05T05:59:12.801187",
+  "perceptie": [
+    {
+      "id": 6,
+      "tip": "car",
+      "coords": [
+        327,
+        254,
+        370,
+        292
+      ],
+      "metri": 10.6,
+      "distanta_estimata": "ignorat_extern",
+      "viteza_relativa_kmh": 9.3
+    },
+    {
+      "id": 14,
+      "tip": "car",
+      "coords": [
+        256,
+        257,
+        293,
+        291
+      ],
+      "metri": 12.2,
+      "distanta_estimata": "aproape",
+      "viteza_relativa_kmh": -5.5
+    },
+    {
+      "id": 15,
+      "tip": "car",
+      "coords": [
+        309,
+        259,
+        326,
+        270
+      ],
+      "metri": 27.4,
+      "distanta_estimata": "ignorat_extern",
+      "viteza_relativa_kmh": 8.5
+    }
+  ],
+  "risc": "mediu",
+  "brake": "franare_usoara",
+  "speed_decision": "scadere",
+  "lane_decision": "mentinere",
+  "semn_activ": "Niciunul"
+}

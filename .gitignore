@@ -1,0 +1,53 @@
+# --- Binaries / executables (incl. the bundled Godot editor) ---
+*.exe
+*.dll
+*.app
+*.so
+*.dylib
+Godot_v*/
+
+# --- Model weights ---
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# --- Videos ---
+*.mp4
+*.MP4
+*.avi
+*.mov
+*.MOV
+*.mkv
+
+# --- Large 3D assets (not used by the code) ---
+*.obj
+*.fbx
+*.glb
+*.bam
+
+# --- Logs ---
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# --- Godot ---
+.godot/
+.import/
+*.tmp
+/android/
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Secrets ---
+.env
+.env.*
