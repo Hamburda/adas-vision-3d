@@ -1,5 +1,7 @@
 # ADAS Vision 3D
 
+> Built in 24 hours at ProveIT Hackathon 2026, with heavy use of AI coding assistants. My focus was the system design and the decision logic.
+
 A single-camera driver-assistance prototype. It detects vehicles and traffic signs in a dashcam video, estimates their distance and relative speed, decides on braking, speed and lane changes, and shows the scene live in 3D in Godot.
 
 Built by team **MaybeWorks** at **ProveIT Hackathon 2026** for the **Magna** computer-vision challenge.
