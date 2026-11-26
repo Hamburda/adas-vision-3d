@@ -50,7 +50,7 @@ video ──► app.py ───────────────────
 ## Team & contributions
 
 - **Rareș Hamburda** ([@Hamburda](https://github.com/Hamburda)): vehicle and traffic-sign detection, distance and relative-speed estimation, risk / braking / lane-change decision logic, and the live 3D visualization in Godot.
-- **[nume colegi]**: lane detection (YOLOP).
+- **Mihai Stratulescu** and **Beatrice**: lane detection (YOLOP).
 
 ---
 
