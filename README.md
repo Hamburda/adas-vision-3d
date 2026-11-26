@@ -70,14 +70,14 @@ pip install -r requirements.txt
 
 ### 2. Get the models and a video
 
-The model weights and videos are not in the repository because they are too large. Put these files in the repository root:
+The model weights and videos are not in the repository. Put these files in the repository root:
 
 | File | Source |
 |---|---|
 | `rtdetr-l.pt` | Official Ultralytics weights. **Downloaded automatically** on first run. |
-| `traffic_signs_v8.pt` | Custom YOLOv8 traffic-sign model: **[download link]** |
+| `traffic_signs_v8.pt` | Custom YOLOv8 traffic-sign model, **not included**. Any YOLOv8 detection model trained on traffic signs works; the decision logic looks for class names containing `stop`, `yield`, `no_entry`, `speed` or `limit`. |
 | YOLOP | Downloaded automatically by `torch.hub` from [hustvl/YOLOP](https://github.com/hustvl/YOLOP) on first run (needs internet). |
-| `video1.mp4` | Dashcam test video: **[download link]**. Any front-facing dashcam video works. |
+| `video1.mp4` | Test video provided by the hackathon organizers, **not redistributed**. Any front-facing dashcam video works; set `VIDEO_INPUT` in `app.py`. |
 
 ### 3. Run
 
